@@ -1,11 +1,31 @@
 name: "my-website"
+output:
+  html_document:
+    theme: yeti
 output_dir: docs
 navbar:
   title: "Quentin's Website!"
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "About"
       href: about.html
-    - text: "My new page"
-      href: new_page.html
+      icon: fa-book-open
+    - text: "My work"
+      menu:
+        - text: "Research projects"
+        - text: "Project 1"
+          href: project1.html
+        - text: "Project 2"
+          href: project2.html
+        - text: "---"
+        - text: "Teaching"
+        - text: "Course 1"
+          href: course1.html
+        - text: "Course 2"
+          href: course2.html
+  right:
+    - icon: fa-github
+      href: https://github.com/qleclerc
+        

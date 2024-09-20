@@ -1,0 +1,5 @@
+---
+title: "Course 1"
+---
+
+Here is some nice information about my course number 1 !

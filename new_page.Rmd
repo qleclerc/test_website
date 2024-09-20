@@ -1,5 +1,0 @@
----
-title: "New page"
----
-
-This is a new page in my website! Yay!
